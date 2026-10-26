@@ -65,7 +65,7 @@
 python scripts/build_map.py
 ```
 
-脚本以自身所在目录定位项目根，路径可移植；运行后会重写 `data/` 下的全部 CSV 与根目录的 HTML。
+脚本以自身所在目录定位项目根，路径可移植；运行后会重写 `data/` 下的 5 份汇总/明细 CSV 与根目录的 HTML（`数据明细_各地市收入数据点.csv` 为原始采集数据，不被覆盖）。
 
 验证渲染（需要 `playwright` 与 Chromium）：
 
